@@ -2,9 +2,11 @@
 #
 #The zip file contains a folder with the executable that runs the game, and a folder with 
 #the whole VS2015 project to compile the code if is needed.
+#
 #I have implemented all the classes of the project from the scratch, except the
 #IO, Keyboard, Gamepad and Framework classes, that are reused from previous and
 #personal projects.
+#
 #I have created a mini-engine 2D where the objects are made by components. To
 #fullfil the task requirements I implemented this classes:
 #- Game: contains the objects, and has functions to update and render.
