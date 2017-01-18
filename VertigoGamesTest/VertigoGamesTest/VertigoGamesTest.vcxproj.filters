@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="base\Game.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\GameObject.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompBase.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompPlayerController.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompTransform.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="io\digital_button.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\gamepad.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\io.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\keyboard.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\framework.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompEquipment.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="base\GameObjectGenerator.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompItem.h">
+      <Filter>components\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompStone.h">
+      <Filter>components\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompItemHead.h">
+      <Filter>components\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompHat.h">
+      <Filter>components\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompItemHand.h">
+      <Filter>components\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompFlashlight.h">
+      <Filter>components\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompGun.h">
+      <Filter>components\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompAmmo.h">
+      <Filter>components\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="components\CompLever.h">
+      <Filter>components\Activable</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="VertigoGamesTest.cpp" />
+    <ClCompile Include="base\Game.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\GameObject.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="components\CompPlayerController.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\CompTransform.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="io\gamepad.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="io\io.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="io\keyboard.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\framework.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="components\CompEquipment.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\CompItem.cpp">
+      <Filter>components\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="components\CompStone.cpp">
+      <Filter>components\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="components\CompHat.cpp">
+      <Filter>components\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="components\CompFlashlight.cpp">
+      <Filter>components\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="components\CompGun.cpp">
+      <Filter>components\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="components\CompAmmo.cpp">
+      <Filter>components\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="components\CompLever.cpp">
+      <Filter>components\Activable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{1ebc5abd-73b7-49bd-a8b5-88e8c8766066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{344124c2-1db0-4916-b375-58ec71d4b64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{2345b0ea-86ee-44de-afe9-737029c76b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{aeb4aaa8-f5dd-4f75-a591-1397a084cab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\Items">
+      <UniqueIdentifier>{ea9ccbd5-6161-4c3d-af6c-d3087fc18fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\Activable">
+      <UniqueIdentifier>{e3bdc2a0-4ed1-4cdc-a834-0a063eb9a7d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
